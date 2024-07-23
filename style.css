@@ -1,0 +1,492 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.head {
+    height: 100vh;
+    width: 50vh;
+}
+
+.top {
+    font-size: 4vh;
+    font-weight: bold;
+    text-transform: capitalize;
+    padding-left: 3vh;
+    padding-top: 2vh;
+    color: white;
+}
+
+.playlist {
+    display: flex;
+    column-gap: 5px;
+    font-size: 2vh;
+    color: rgb(39, 173, 226);
+    text-transform: capitalize;
+}
+
+.listening,
+.recommended {
+    display: flex;
+    column-gap: 5px;
+    font-size: 2vh;
+    color: grey;
+    text-transform: capitalize;
+}
+
+.head {
+    display: flex;
+    flex-direction: column;
+    row-gap: 5vh;
+}
+
+.tags {
+    padding-left: 3vh;
+}
+
+.img1 {
+    height: 4vh;
+    width: 4vh;
+}
+
+.music1 {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1vh;
+}
+
+.name {
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+}
+
+.item {
+    display: flex;
+    column-gap: 8vh;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 2vh;
+    padding-top: 4vh;
+    /*border:2px solid red;*/
+}
+
+.section2 {
+    height: 100vh;
+    width: 100%;
+    background-image: url("https://radionano.com/wp-content/uploads/Article-Banner-Alan-Walker.png");
+
+}
+
+.box {
+    display: flex;
+    flex-direction: row;
+
+}
+
+#search,
+.searchicon {
+    height: 4vh;
+    width: 40vh;
+    outline: none;
+    background: none;
+    border: none;
+    color: black;
+    padding: 2px;
+    font-size: 2vh;
+    text-transform: capitalize;
+    opacity: 0.7;
+    background-color: rgb(255, 243, 243);
+}
+
+.searchbox {
+    display: flex;
+    flex-direction: row;
+}
+
+.searchicon {
+    width: 5vh;
+    position: relative;
+    height: 2rem;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    padding-top: 5px;
+}
+
+#search {
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+}
+
+.list1 {
+    color: rgb(124, 122, 122);
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vh;
+    text-transform: capitalize;
+}
+
+li:hover {
+    color: aqua;
+    text-decoration: underline;
+}
+
+.top1 {
+    display: flex;
+    column-gap: 20rem;
+    padding-top: 5vh;
+    padding-left: 5vh;
+}
+
+.heading {
+    color: wheat;
+    font-size: 5vh;
+    font-weight: bold;
+    text-transform: capitalize;
+}
+
+.para {
+    color: rgb(182, 175, 175);
+    font-size: 2dvb;
+}
+
+.subs1,
+.subs2 {
+    height: 4.5vh;
+    width: 20vh;
+    font-size: 2.5vh;
+    color: white;
+    border: 2px solid rgb(118, 211, 248);
+    display: flex;
+    justify-content: center;
+    border-radius: 7vh;
+    padding-top: 8px;
+    color: skyblue;
+}
+
+.subs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vh;
+    text-transform: uppercase;
+}
+
+.subs1:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+.subs2:hover {
+    background-color: aquamarine;
+    color: white;
+}
+
+.about {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    padding-left: 5vh;
+    padding-top: 5vh;
+}
+
+.songs {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vh;
+    height: 25vh;
+    width: 100vh;
+    overflow-y: scroll;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.popularimg {
+    height: 15vh;
+    width: 20vh;
+}
+
+.songname {
+    font-size: 2vh;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.popular {
+    font-size: 3vh;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: aliceblue;
+
+}
+
+.popularsong,
+.popularartist {
+    display: flex;
+    flex-direction: column;
+    padding-left: 5vh;
+    padding-top: 4vh;
+}
+
+.artistimg {
+    height: 8vh;
+    width: 8vh;
+    border-radius: 6vh;
+}
+
+.artist1 {
+    display: flex;
+    flex-direction: column;
+    row-gap: 1vh;
+}
+
+.artistname {
+    font-size: 1.5vh;
+    color: white;
+    text-transform: capitalize;
+    font-weight: bold;
+}
+
+.artists {
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vh;
+    height: 15vh;
+    width: 100vh;
+    overflow-y: scroll;
+    align-items: center;
+    scroll-behavior: smooth;
+}
+
+.head {
+    background-color: black;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    row-gap: 3vh;
+    overflow-y: scroll;
+    align-items: center;
+    scroll-behavior: smooth;
+    height: 63vh;
+    width: 40vh
+}
+
+#bar1,
+#bar2,
+#bar3,
+#bar4,
+#bar5,
+#bar6,
+#bar7,
+#bar8,
+#bar9,
+#bar10,
+#bar11,
+#bar12,
+#bar13,
+#bar14,
+#bar15,
+#bar16,
+#bar17,
+#bar18,
+#bar19,
+#bar20,
+#bar21,
+#bar22,
+#bar23,
+#bar24,
+#bar25,
+#bar26 {
+    color: white;
+    font-size: 3.5vh;
+}
+
+#rangebutton {
+    width: 70vh;
+    height: 0.5vh;
+    outline: none;
+    background-color: gray;
+    -webkit-transition: .2s;
+    /* 0.2 seconds transition on hover */
+    transition: opacity .2s;
+    appearance: none;
+    opacity: 0.5;
+    margin-top: 2vh;
+}
+
+#backward,
+#play,
+#forward {
+    font-size: 4vh;
+    color: white;
+    position: relative;
+}
+
+.footer {
+    height: 5.7vh;
+    display: flex;
+    flex-direction: row;
+    column-gap: 3vh;
+    margin-left: 5vh;
+    margin-top: 2vh;
+    background-color: black;
+}
+
+.name {
+    height: 5vh;
+    width: 15vh;
+}
+
+#mainimg {
+    height: 5vh;
+    width: 5vh;
+    opacity: 0;
+}
+
+#songname {
+    font-size: 2vh;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: white;
+    height: 4vh;
+    width: 19vh;
+    opacity: 0;
+}
+
+.mainfooter {
+    display: flex;
+    flex-direction: row;
+    column-gap: 2vh;
+    margin-left: 3vh;
+    margin-bottom: 2vh;
+}
+
+#gif {
+    height: 5vh;
+    width: 5vh;
+    opacity: 0;
+}
+
+.img1:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+
+}
+
+.popularimg:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+
+}
+
+.artistimg:hover {
+    opacity: 1;
+    -webkit-animation: flash 1.5s;
+    animation: flash 1.5s;
+
+}
+
+@-webkit-keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+@keyframes flash {
+    0% {
+        opacity: .4;
+    }
+
+    100% {
+        opacity: 1;
+    }
+}
+
+#min,
+#sec,
+#dot {
+    font-size: 2vh;
+    color: white;
+}
+
+#time {
+    display: flex;
+    flex-direction: row;
+    margin-top: 1vh;
+}
+
+.bigimg {
+    height: 25vh;
+    width: 25vh;
+    border-radius: 20vh;
+    opacity: 0.8;
+}
+
+.divider {
+    display: flex;
+    flex-direction: row;
+    column-gap: 4vh;
+}
+
+#heart {
+    opacity: 0;
+}
+
+#volrange {
+    height: 1vh;
+    width: 10vh;
+    opacity: 0.5;
+    margin-top: 1.5vh;
+}
+
+#volicon {
+    height: 5vh;
+    width: 5vh;
+    color: white;
+    opacity: 0.5;
+    margin-top: 1vh;
+}
+
+#volume {
+    display: flex;
+    flex-direction: row;
+    margin-left: 5vh;
+    transition: 1s;
+}
+
+body {
+    overflow: hidden;
+}
+
+.type {
+    width: 6rem;
+}
+
+
+.type:hover {
+    color: aqua
+}
+
+.heartfill {
+    color: white;
+    font-size: 2rem;
+    opacity: 0;
+}
+
+.fullheart {
+    color: red;
+    font-size: 2rem;
+}

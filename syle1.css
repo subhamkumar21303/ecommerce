@@ -1,0 +1,141 @@
+/*---------------------------------------*/
+body {
+    margin: 0;
+    /* Remove default margin */
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.temp {
+    font-size: 2rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    color: red;
+    margin-left: 2rem;
+
+}
+
+.city {
+    font-size: 1.5rem;
+    font-weight: bold;
+    font-style: oblique;
+    text-transform: capitalize;
+    color: whitesmoke;
+    margin-left: 2rem;
+}
+
+.t1 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    row-gap: 0.4rem;
+}
+
+.humper {
+    font-size: 1.3rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: blue;
+}
+
+.hum {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+
+}
+
+.t2 {
+    display: flex;
+    flex-direction: column;
+    margin-left: 2rem;
+    row-gap: 0.4rem;
+
+}
+
+.windspeed {
+    font-size: 1.3rem;
+    font-weight: bold;
+
+    text-transform: capitalize;
+    color: rgb(0, 183, 255);
+}
+
+.wind {
+    font-size: 1rem;
+    font-weight: bold;
+    text-transform: capitalize;
+    color: black;
+}
+
+.search {
+    height: 2rem;
+    width: 10rem;
+    display: flex;
+    align-items: center;
+    border: 0.1rem solid rgb(207, 155, 155);
+    border-radius: 3rem;
+    ;
+    background-color: rgb(250, 243, 235);
+    padding-left: 1rem;
+    background-color: antiquewhite;
+}
+
+.top {
+    display: flex;
+    flex-direction: row;
+    column-gap: 1.5rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+}
+
+button {
+    height: 2rem;
+    width: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: black;
+    font-size: 1.2rem;
+    border-radius: 1rem;
+    border: 2px solid blueviolet;
+    background-color: bisque;
+}
+
+.box1 {
+    height: 24rem;
+    width: 39rem;
+    background-color: rgb(224, 212, 195);
+    display: flex;
+    flex-direction: column;
+    row-gap: 2rem;
+    background-image: url("images/nomal.jpg");
+    background-position: center;
+    background-size: cover;
+    border: 0.2rem solid rgba(255, 175, 175, 0.038);
+    border-radius: 3rem;
+}
+
+.base {
+    display: flex;
+    flex-direction: row;
+    column-gap: 5rem;
+    background-color: rgba(250, 235, 215, 0.417);
+}
+
+@media (max-width:600px) {
+    html {
+        font-size: 40%;
+    }
+}
+
+body {
+    background-color: aliceblue;
+}
+
+.primary {
+    opacity: 0.3;
+}
